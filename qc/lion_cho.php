@@ -38,6 +38,7 @@
   gtag('config', 'UA-125060546-1');
 </script>
 
+
   <!-- profile css -->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
   <link href="assets/css/app.032db60c.css" rel="stylesheet">
@@ -52,7 +53,6 @@
   <meta property="og:description" content="Chaineers CSO&CEO">
   <meta property="og:image" content="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/40543669_10157067777149271_7856191089345036288_o.jpg?_nc_cat=0&oh=6c576743744c98d8edeea7cbb330562c&oe=5C3A4864">
 <!-- kakao thumbnail -->
-
 
 </head>
 <body>
@@ -80,12 +80,12 @@
 
 
 <br>
-<span id="pass">
+
 +82 (0)10-3944-4663 (f.0504-246-5004)<br>
 +84 90-245-1625 <br>
 +66 (0)63-382-7118<br>
 Email: lion.cho@chaineers.io<br>
-</span>
+
 KR: B-2F, 50, Jong-ro 1-gil, Jongno-gu, Seoul, Korea, 03142 <br>
 VN1: 268 Lý Thường Kiệt, Phường 14, Quận 10, HCM <br>
 VN2: A07.08 Chung cư Luxcity. Số 528 Quận 7, TP HCM <br>
@@ -164,9 +164,7 @@ KAKAO : chowin21<br>
                     <a href="#" class="text-black">
                       <a href="https://www.evernote.com/l/AZk923D5V-NGhqUNEHJs8cgaBimspDRWfkY" class="text-black">BluePrint</a>
                       &nbsp;&nbsp;&nbsp;&nbsp;
-                      <a href="https://qcontact.org/qc/lion_cho.html?pass=pass1" class="text-black">Sample_yes</a>
-                      &nbsp;&nbsp;&nbsp;&nbsp;
-                      <a href="https://qcontact.org/qc/lion_cho.html" class="text-black">Sample_no</a>
+                      <a href="https://qcontact.org/qc/lion_cho.html" class="text-black">Sample</a>
                       <p></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#" class="text-black"></a>
                 </p>
@@ -188,42 +186,6 @@ KAKAO : chowin21<br>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
-  
-<script>
-  
-
-
-var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
-
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : sParameterName[1];
-        }
-    }
-};
-
-var pass = getUrlParameter('pass');
-// ex : lion_cho.html?technology=jquery&blog=jquerybyexample
-// ex: ?pass=exampl#@!GD5
-
-if (pass == "pass1"){
-  alert( "Private정보 접근허가" );
-} else { 
-  // console.log("no"
-$( "#pass" ).hide( "slow", function() {
-    alert( "개인 연락처 접근권한이 없습니다." );
-  });
-
-}
-
-</script>
-
   
 </body>
 </html>
