@@ -95,6 +95,9 @@ FACEBOOK : <a href="https://www.facebook.com/chowin21/">link</a><br>
 BLOG : <a href="https://blog.naver.com/chowin21">link</a><br>
 YOUTBE : <a href="https://www.youtube.com/channel/UChlcXdPqPKiZdr9oFgR-7Lw?view_as=subscriber">link</a><br>
 KAKAO : chowin21<br>
+Homepage : <a href="https://chaineers.io">Chaineers</a><br>
+Product : <a href="https://techroad.io">Techroad</a><br>
+Product2 : <a href="https://qcontact.io">qContact</a><br>
 
 
 
@@ -133,13 +136,14 @@ KAKAO : chowin21<br>
                 </li>
             </ul>
 
+<a href="http://sales.qcontact.org/profile" class="text-black">프로필심사받기</a>
 
 <!-- kickofflab  -->
- <button class="btn btn-blue" onclick="window.kol_bounce_227880.fire();">프로필심사받기</button>
+ <!-- <button class="btn btn-blue" onclick="window.kol_bounce_227880.fire();">프로필심사받기</button>
                 <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
                 <script>window.$kol_jquery = window.jQuery</script>
                 <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
-                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/118630/227880.js'></script>
+                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/118630/227880.js'></script> -->
 <!-- kickofflab  -->
 
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:+82-10-3944-4663">
@@ -162,11 +166,13 @@ KAKAO : chowin21<br>
             <div class="col-md-9">
                 <p class="mbr-text align-right links mbr-fonts-style display-7">
                     <a href="#" class="text-black">
+                      <a href="https://webqr.com/" class="text-black">Web QR</a>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="https://www.evernote.com/l/AZk923D5V-NGhqUNEHJs8cgaBimspDRWfkY" class="text-black">BluePrint</a>
                       &nbsp;&nbsp;&nbsp;&nbsp;
-                      <a href="https://qcontact.org/qc/lion_cho.html?pass=pass1" class="text-black">Sample_yes</a>
+                      <a href="https://qcontact.org/qc/lion_cho.html?pass=pass1" class="text-black">Sample1</a>
                          &nbsp;&nbsp;&nbsp;&nbsp;
-                      <a href="https://qcontact.org/qc/lion_cho.html" class="text-black">Sample_no</a>
+                      <a href="https://qcontact.org/qc/lion_cho.html" class="text-black">Sample2</a>
                       <p></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#" class="text-black"></a>
                 </p>
@@ -177,29 +183,27 @@ KAKAO : chowin21<br>
 </section>
 
 <!-- get email by software -->
-
+<!-- 
 <script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="c13cbc5f0e2b45a987386d79c043733905c0c01c49b94020bfdb5dc0254f5fbe",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+ -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
+<!-- <script>
 $(document).ready(function(){
     $("form").submit(function(){
         alert("Submitted");
     });
 });
 </script>
-</head>
-<body>
-
+ -->
+<!-- 
 <form action="send_form_email.php" method="POST">
   Email: <input type="email" name="Email" value="youremail@domain.com"><br>
   <input type="submit" value="Submit">
 </form> 
 
-
- 
-  <!-- get email by software -->
-
+ --> 
+<!-- get email by software -->
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
@@ -211,8 +215,6 @@ $(document).ready(function(){
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
-  
-
   
 </body>
 </html>
