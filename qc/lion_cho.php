@@ -164,7 +164,9 @@ KAKAO : chowin21<br>
                     <a href="#" class="text-black">
                       <a href="https://www.evernote.com/l/AZk923D5V-NGhqUNEHJs8cgaBimspDRWfkY" class="text-black">BluePrint</a>
                       &nbsp;&nbsp;&nbsp;&nbsp;
-                      <a href="https://qcontact.org/qc/lion_cho.html" class="text-black">Sample</a>
+                      <a href="https://qcontact.org/qc/lion_cho.html?pass=pass1" class="text-black">Sample_yes</a>
+                         &nbsp;&nbsp;&nbsp;&nbsp;
+                      <a href="https://qcontact.org/qc/lion_cho.html" class="text-black">Sample_no</a>
                       <p></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#" class="text-black"></a>
                 </p>
@@ -173,6 +175,30 @@ KAKAO : chowin21<br>
         
     </div>
 </section>
+
+<!-- get email by software -->
+
+<script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="c13cbc5f0e2b45a987386d79c043733905c0c01c49b94020bfdb5dc0254f5fbe",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("form").submit(function(){
+        alert("Submitted");
+    });
+});
+</script>
+</head>
+<body>
+
+<form action="send_form_email.php" method="POST">
+  Email: <input type="email" name="Email" value="youremail@domain.com"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+ 
+  <!-- get email by software -->
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -186,6 +212,7 @@ KAKAO : chowin21<br>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
+
   
 </body>
 </html>
